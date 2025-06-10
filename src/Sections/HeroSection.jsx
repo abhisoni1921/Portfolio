@@ -67,10 +67,10 @@ const HeroSection = () => {
             <a href="tel:+919977794478" className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-125">
               <Phone size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-125">
+            <a href="https://github.com/abhisoni1921" target='_blank' className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-125">
               <Github size={24} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-125">
+            <a href="https://www.linkedin.com/in/abhishek-soni-41529622b" target='blanck' className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-125">
               <Linkedin size={24} />
             </a>
           </div>

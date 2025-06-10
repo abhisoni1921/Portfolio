@@ -6,20 +6,20 @@ const education = [
     degree: 'B.Tech - Computer Science and Engineering',
     institution: 'Indian Institute of Information Technology, Sonepat',
     duration: '2021 - 2025',
-    cgpa: '8.03/10',
+    cgpa: '8.3/10',
     type: 'undergraduate'
   },
   {
     degree: 'Class-12th',
     institution: 'Govt. Excellence H. S. School Waidhan, Singrauli (M.P.)',
-    duration: '2018 - 2019',
+    duration: '2019 - 2020',
     percentage: '91.2%',
     type: 'secondary'
   },
   {
     degree: 'Class-10th',
     institution: 'Govt. Excellence H. S. School Waidhan, Singrauli (M.P.)',
-    duration: '2016 - 2017',
+    duration: '2017 - 2018',
     percentage: '87.5%',
     type: 'secondary'
   }

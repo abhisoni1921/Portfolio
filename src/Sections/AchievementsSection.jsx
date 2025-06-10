@@ -8,12 +8,12 @@ const achievements = [
     description: 'Achieved the highest academic performance in district-wide examinations',
     icon: Trophy,
     color: 'amber',
-    stats: '#1 Rank'
+    stats: '#2 Rank'
   },
   {
-    title: 'OOP Certified',
+    title: 'MERN Certified',
     subtitle: 'Great Learning Platform',
-    description: 'Mastered Object-Oriented Programming concepts and advanced design patterns',
+    description: 'Mastered MERN concepts and advanced design patterns',
     icon: BookOpen,
     color: 'emerald',
     stats: 'Certified'

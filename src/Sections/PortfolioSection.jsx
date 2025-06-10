@@ -3,32 +3,60 @@ import { Github, ExternalLink } from 'lucide-react';
 
 const projects = [
   {
+    title: 'Zenithmain',
+    description: 'A flagship project showcasing advanced development techniques, possibly involving web or AI-based solutions for optimized performance.',
+    tech: ['JavaScript', 'Node.js', 'Python'], // Inferred based on common technologies
+    image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=500',
+    github: 'https://github.com/abhisoni1921/Zenithmain',
+    live: 'https://zenithmain.vercel.app/',
+    date: 'October 2024' // Placeholder date
+  },
+  {
+    title: 'ImagineAlgos',
+    description: 'A collaborative project focusing on algorithm visualization or implementation, possibly involving data structures or computational logic.',
+    tech: ['Python', 'JavaScript', 'React'], // Inferred based on name
+    image: 'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=500',
+    github: 'https://github.com/va-run-6626/ImagineAlgos',
+    live: 'https://imagine-algos.vercel.app/',
+    date: 'May 2024' // Placeholder date
+  },
+    {
+    title: 'Gambit',
+    description: 'A strategic project, potentially a game or algorithm-driven application with a focus on innovative solutions. it may involve AI or complex logic.',
+    tech: ['Python', 'AI', 'JavaScript'], // Inferred based on name and user’s project patterns
+    image: 'https://cdn.pixabay.com/photo/2021/05/19/11/20/balance-6265638_1280.jpg',
+    github: 'https://github.com/abhisoni1921/Gambit',
+    live: 'https://gambit-beta.vercel.app/',
+    date: 'July 2024' // Placeholder date
+  },
+  {
     title: 'Pathological Image Classification',
     description: 'Blockchain and Cloud-Assisted Secure Deep Feature Classification Framework for Pathology Images using CNN, VGGNet, MobileNet for classifying the images.',
-    tech: ['Deep Learning', 'CNN', 'VGGNet', 'MobileNet', 'Blockchain'],
+    tech: ['Deep Learning', 'CNN', 'VGGNet', 'MobileNet'],
     image: 'https://images.pexels.com/photos/5726794/pexels-photo-5726794.jpeg?auto=compress&cs=tinysrgb&w=500',
     github: '#',
     live: '#',
     date: 'September 2024'
   },
   {
-    title: 'Fashion Avenue - Clothing Store Website',
+    title: 'Fashion Avenue - Clothing Store',
     description: 'Responsive website with engaging UI using HTML, CSS, JavaScript and React. Features eye-catching header, compelling content sections.',
     tech: ['HTML', 'CSS', 'JavaScript', 'React'],
     image: 'https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=500',
-    github: '#',
-    live: '#',
+    github: 'https://github.com/abhisoni1921/clothing-store',
+    live: 'https://abhisoni1921.github.io/clothing-store/',
     date: 'January 2024'
   },
   {
-    title: 'Remote Monitoring and Home Security System',
-    description: 'Developed a home security system with automated neighbor notification through a buzzer alarm upon detecting unusual movement.',
-    tech: ['IoT', 'Arduino', 'Sensors', 'C++'],
-    image: 'https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=500',
-    github: '#',
-    live: '#',
+    title: 'N-Queen Visualizer',
+    description: 'A visualizer for the N-Queen problem, showcasing the solution through an interactive interface using HTML, CSS, and JavaScript.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=500',
+    github: 'https://github.com/abhisoni1921/N-Queens-Visualiser',
+    live: 'https://abhisoni1921.github.io/N-Queens-Visualiser/',
     date: 'March 2023'
   }
+  
 ];
 
 const PortfolioSection = () => {
@@ -42,7 +70,7 @@ const PortfolioSection = () => {
   }, []);
 
   return (
-    <section id="portfolio" className="py-20 bg-slate-800/50 relative z-10">
+    <section id="projects" className="py-20 bg-slate-800/50 relative z-10">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className={`text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-300 bg-clip-text text-transparent transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

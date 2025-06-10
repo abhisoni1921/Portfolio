@@ -116,7 +116,7 @@ const AboutSection = () => {
               <button className="group bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 hover:from-blue-500 hover:via-purple-500 hover:to-blue-500 px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300 flex items-center gap-3 transform hover:scale-105 hover:shadow-2xl relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 <Download size={24} className="group-hover:rotate-12 transition-transform duration-300" />
-                <span className="relative z-10">Download Resume</span>
+                <span className="relative z-10"><a href="#">Download Resume</a></span>
                 <div className="absolute -top-2 -right-2 w-4 h-4 bg-yellow-400 rounded-full animate-ping opacity-0 group-hover:opacity-75"></div>
               </button>
             </div>
