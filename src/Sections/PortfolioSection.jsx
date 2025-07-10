@@ -9,7 +9,7 @@ const projects = [
     image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=500',
     github: 'https://github.com/abhisoni1921/Zenithmain',
     live: 'https://zenithmain.vercel.app/',
-    date: 'October 2024' // Placeholder date
+    date: 'Jan 2025' // Placeholder date
   },
   {
     title: 'ImagineAlgos',
@@ -18,12 +18,12 @@ const projects = [
     image: 'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=500',
     github: 'https://github.com/va-run-6626/ImagineAlgos',
     live: 'https://imagine-algos.vercel.app/',
-    date: 'May 2024' // Placeholder date
+    date: 'April 2025' // Placeholder date
   },
     {
     title: 'Gambit',
     description: 'A strategic project, potentially a game or algorithm-driven application with a focus on innovative solutions. it may involve AI or complex logic.',
-    tech: ['Python', 'AI', 'JavaScript'], // Inferred based on name and user’s project patterns
+    tech: [ 'AI', 'JavaScript'], // Inferred based on name and user’s project patterns
     image: 'https://cdn.pixabay.com/photo/2021/05/19/11/20/balance-6265638_1280.jpg',
     github: 'https://github.com/abhisoni1921/Gambit',
     live: 'https://gambit-beta.vercel.app/',
@@ -55,7 +55,27 @@ const projects = [
     github: 'https://github.com/abhisoni1921/N-Queens-Visualiser',
     live: 'https://abhisoni1921.github.io/N-Queens-Visualiser/',
     date: 'March 2023'
-  }
+  },
+  {
+  title: 'FashionHub',
+  description: 'An e-commerce web application for fashion products, offering users a sleek interface to browse, search, and shop for clothing and accessories.',
+  tech: ['React', 'Tailwind CSS', 'JavaScript','MongoDB', 'ExpressJS' ,'Node.Js'],
+  image: 'https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&w=500',
+  github: 'https://github.com/abhisoni1921/FashionHub-frontend',
+  live: 'https://fashion-hub-frontend-rose.vercel.app/',
+  date: 'June 2025'
+  } ,
+  {
+  title: 'Skillwise LMS',
+  description: 'A Learning Management System (LMS) platform that enables users to explore, enroll in, and manage courses with a user-friendly dashboard and responsive design.',
+  tech: ['React', 'Tailwind CSS', 'JavaScript','SpringBoot','Vercel', 'git'],
+  image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=500',
+  github: 'https://github.com/abhisoni1921/SkillEdgeLMS',
+  live: 'https://skill-edge-lms.vercel.app/',
+  date: 'May 2025'
+ }
+
+
   
 ];
 
