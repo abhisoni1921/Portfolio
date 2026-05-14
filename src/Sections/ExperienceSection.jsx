@@ -3,9 +3,23 @@ import { Building, Calendar, MapPin, Zap } from 'lucide-react';
 
 const experience = [
   {
+  title: 'Java Backend Developer',
+  company: 'Infosys Limited',
+  duration: 'November 2025 - Present',
+  location: 'Onsite (Pune, India)',
+  type: 'Full Time',
+  description: [
+    'Designed and developed scalable RESTful APIs using Java Spring Boot, supporting high-traffic enterprise applications with 99.9% uptime',
+    'Optimized database queries and schema design in PostgreSQL, reducing query execution time by 35% across core modules',
+    'Implemented microservices architecture with Spring Cloud, improving system modularity and enabling independent deployment of services',
+    'Collaborated with frontend and QA teams in an Agile environment, consistently delivering features within sprint timelines'
+  ],
+  skills: ['Java', 'Spring Boot', 'PostgreSQL', 'Microservices', 'REST APIs']
+},
+  {
     title: 'Full Stack Developer',
     company: 'Zenith Edu. Sol. Pvt. Ltd',
-    duration: 'January 2025 - Present',
+    duration: 'January 2025 - ',
     location: 'Onsite(Delhi, India)',
     type: 'Internship',
     description: [
