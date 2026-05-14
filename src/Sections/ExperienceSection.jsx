@@ -19,7 +19,7 @@ const experience = [
   {
     title: 'Full Stack Developer',
     company: 'Zenith Edu. Sol. Pvt. Ltd',
-    duration: 'January 2025 - ',
+    duration: 'January 2025 - June 2025',
     location: 'Onsite(Delhi, India)',
     type: 'Internship',
     description: [
